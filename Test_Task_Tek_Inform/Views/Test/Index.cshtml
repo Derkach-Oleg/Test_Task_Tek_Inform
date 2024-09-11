@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Main Page";
+}
+
+
+<div class="test_container">
+    <center><input type="date" value='@DateTime.Now.ToString("yyyy-MM-dd")' class="test_container_date-control" onchange="SelectedDateChanged(event);" /></center>
+    <center><label>Скачать файлы за выбранную дату</label></center>
+    <center><button class="test_container_button_download" onclick="DownloadFiles();">Скачать</button> </center>
+    <center><label>Загрузить в БД файлы за выбранную дату</label></center>
+    <center><button class="test_container_button_upload">Загрузить в БД</button> </center>
+</div>

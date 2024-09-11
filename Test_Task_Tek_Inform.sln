@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Task_Tek_Inform.Mvc", "Test_Task_Tek_Inform\Test_Task_Tek_Inform.Mvc.csproj", "{796A4A29-4AA9-4B12-BF98-3F22C306E39F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C703CCEE-3A0B-4A4B-833B-3B6ECD2B0253} = {C703CCEE-3A0B-4A4B-833B-3B6ECD2B0253}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Task_Tek_Inform.Domain", "Test_Task_Tek_Inform.Domain\Test_Task_Tek_Inform.Domain.csproj", "{C703CCEE-3A0B-4A4B-833B-3B6ECD2B0253}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{796A4A29-4AA9-4B12-BF98-3F22C306E39F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{796A4A29-4AA9-4B12-BF98-3F22C306E39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{796A4A29-4AA9-4B12-BF98-3F22C306E39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{796A4A29-4AA9-4B12-BF98-3F22C306E39F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C703CCEE-3A0B-4A4B-833B-3B6ECD2B0253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C703CCEE-3A0B-4A4B-833B-3B6ECD2B0253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C703CCEE-3A0B-4A4B-833B-3B6ECD2B0253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C703CCEE-3A0B-4A4B-833B-3B6ECD2B0253}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {401C9C7F-B3D2-40EB-8B42-FB24EA0110F1}
+	EndGlobalSection
+EndGlobal
