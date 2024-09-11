@@ -1,0 +1,7 @@
+CREATE TABLE EnergyLosses
+(
+    ID SERIAL PRIMARY KEY,
+	Date DATE,
+	RegionID INTEGER,
+	FOREIGN KEY (RegionID) REFERENCES Regions (ID)
+);

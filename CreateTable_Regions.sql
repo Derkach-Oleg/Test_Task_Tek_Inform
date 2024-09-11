@@ -1,0 +1,5 @@
+CREATE TABLE Regions
+(
+    ID SERIAL PRIMARY KEY,
+    Name CHARACTER VARYING(50),
+);
